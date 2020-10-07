@@ -1,3 +1,4 @@
-> Head over to [INSTRUCTIONS.md](./INSTRUCTIONS.md)
+This is an example of how to host your application on Heroku. 
 
-> The README is empty because you'll need to fill it out
+To be able to deploy to Heroku we added a custom `server.js` file that will be started when running `npm start`. 
+This server will start the json-server API but also host the files in `public`.
